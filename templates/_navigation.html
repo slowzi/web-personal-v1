@@ -1,0 +1,42 @@
+<!-- <nav>
+    <div class="navbar text-white bg-black fixed top-0 z-50 backdrop-filter backdrop-blur-md bg-opacity-55">
+        <div class="flex-1">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+        <div class="flex-none">
+            <a class="text-xl px-4 hover:underline" href="/about">dims_</a>
+        </div>
+    </div>
+</nav> -->
+
+<div class="sticky top-0 z-30 shadow-2xl shadow-blue-500/20 backdrop-filter backdrop-blur-md bg-opacity-55">
+    <span class="hidden justify-center bg-white/90 dark:bg-black/40 p-4 md:flex">
+        <nav class="self-center font-libre text-base">
+            <div class="flex items-center space-x-6 align-middle text-black dark:text-white">
+                <a href="/">
+                    <button class="hover:italic hover:font-bold">Home</button>
+                </a>
+                <a href="#project">
+                    <img class="w-8 h-8"
+                        src="data:image/png;base64,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">
+                </a>
+                <a href="#about">
+                    <button class="hover:italic hover:font-bold">About</button>
+                </a>
+            </div>
+        </nav>
+        <!-- <div class="flex w-[50%] justify-end self-center">
+            <a href="/">
+                <img alt="Hero" loading="lazy" width="100" height="3" decoding="async" data-nimg="1"
+                    class="block h-auto w-24 dark:hidden" style="color:transparent"
+                    src="/logo/lokaleten-logo-black.svg" />
+                <img alt="Hero" loading="lazy" width="100" height="3" decoding="async" data-nimg="1"
+                    class="hidden h-auto w-24 dark:block" style="color:transparent"
+                    src="/logo/lokaleten-logo-white.svg" />
+            </a>
+        </div> -->
+    </span>
+</div>

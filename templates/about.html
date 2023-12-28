@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <title>About</title>
+</head>
+
+
+
+<body class="bg-white dark:bg-black">
+    <style>
+        :root,
+        .light,
+        .light-theme {
+            --color-page-background: white;
+        }
+
+        .dark,
+        .dark-theme {
+            --color-page-background: var(--slate-1);
+        }
+
+        body {
+            background-color: var(--color-page-background);
+        }
+    </style>
+    <div data-is-root-theme="true" data-accent-color="indigo" data-gray-color="slate" data-has-background="false"
+        data-panel-background="translucent" data-radius="medium" data-scaling="100%" class="radix-themes">
+        <div>
+            <div class="sticky top-0 z-30">
+                <span class="hidden justify-between bg-white/90 p-4 dark:bg-black/90 md:flex">
+                    <nav class="w-[50%] self-center">
+                        <div class="flex items-center space-x-8 align-middle font-mono text-black dark:text-white">
+                            <a href="/">
+                                <button class="text-sm font-bold hover:skew-x-6 hover:underline">Beranda</button>
+                            </a>
+                            <a href="/project">
+                                <button class="text-sm font-bold hover:skew-x-6 hover:underline">Proyek</button>
+                            </a>
+                            <a href="/about">
+                                <button class="text-sm font-bold hover:skew-x-6 hover:underline">Tentang</button>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="flex w-[50%] justify-end self-center">
+                        <a href="/">
+                            <img alt="Hero" loading="lazy" width="100" height="3" decoding="async" data-nimg="1"
+                                class="block h-auto w-24 dark:hidden" style="color:transparent"
+                                src="/logo/lokaleten-logo-black.svg" />
+                            <img alt="Hero" loading="lazy" width="100" height="3" decoding="async" data-nimg="1"
+                                class="hidden h-auto w-24 dark:block" style="color:transparent"
+                                src="/logo/lokaleten-logo-white.svg" />
+                        </a>
+                    </div>
+                </span>
+            </div>
+            <div class="flex w-full flex-col items-center space-y-20 px-4 py-8">
+                <div class="flex w-full justify-center font-mono">
+                    <div class="flex max-w-5xl flex-col items-center gap-4">
+                        <div class="w-full">
+                            <a href="/project">
+                                <div
+                                    class="dark flex w-full items-center justify-between rounded-lg bg-gradient-to-r from-lime-300 to-fuchsia-300 px-3 py-1 align-middle font-mono text-sm font-bold hover:underline dark:from-lime-700 dark:to-fuchsia-700 dark:decoration-white">
+                                    <p class="text-black dark:text-white">Lihat proyek yang lagi dikerjain.</p>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 512 512" class="fill-black dark:fill-white" height="1em"
+                                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M481.29 229.47l-188.87-113a30.54 30.54 0 00-31.09-.39 33.74 33.74 0 00-16.76 29.47v79.05L63.85 116.44a30.54 30.54 0 00-31.09-.39A33.74 33.74 0 0016 145.52v221A33.74 33.74 0 0032.76 396a30.54 30.54 0 0031.09-.39L244.57 287.4v79.08A33.74 33.74 0 00261.33 396a30.54 30.54 0 0031.09-.39l188.87-113a31.27 31.27 0 000-53z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="relative aspect-[1.5/1] w-full overflow-hidden rounded-2xl lg:aspect-[3/1]">
+                            <img alt="Hero" fetchPriority="high" decoding="async" data-nimg="fill"
+                                class="bg-gray-300 object-cover dark:bg-gray-700"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                sizes="100vw"
+                                srcSet="/_next/image?url=%2Fhero.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fhero.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fhero.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fhero.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fhero.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fhero.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fhero.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fhero.jpg&amp;w=3840&amp;q=75 3840w"
+                                src="/_next/image?url=%2Fhero.jpg&amp;w=3840&amp;q=75" />
+                            <img alt="logo" loading="lazy" width="50" height="50" decoding="async" data-nimg="1"
+                                class="color-white absolute bottom-4 right-4 h-auto w-12 self-start object-cover mix-blend-difference"
+                                style="color:transparent" src="/logo/ue-logo.svg" />
+                        </div>
+                        <h1
+                            class="gap-2 text-center font-sans text-7xl font-light italic text-black dark:text-white md:flex md:text-9xl">
+                            VISUAL<p class="font-sans font-bold uppercase not-italic">Parah.</p>
+                        </h1>
+                        <p class="text-md text-justify font-mono font-bold text-black dark:text-white md:text-xl">
+                            Membangun medium kreasi untuk mata dan membentuk visi kreatif bagi yang berkarya.</p>
+                        <div
+                            class="font-md flex w-full flex-col items-center justify-between gap-6 font-mono md:flex-row md:text-lg">
+                            <a class="text-black hover:underline dark:text-white"
+                                href="https://instagram.com/lokaleten">Instagram</a>
+                            <a class="text-black hover:underline dark:text-white"
+                                href="https://youtube.com/lokaleten">YouTube</a>
+                            <a class="text-black hover:underline dark:text-white"
+                                href="https://open.spotify.com/show/6UQmmhX1A50wbmJ5Ow9Dl5?si=b5a8255c45de43c8">Spotify</a>
+                        </div>
+                        <div class="flex w-full justify-between text-xs">
+                            <span class="flex text-black dark:text-white">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                                    </path>
+                                </svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="flex items-center gap-1 text-black dark:text-white">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 22c5.421 0 10-4.579 10-10S17.421 2 12 2 2 6.579 2 12s4.579 10 10 10zm0-18c4.337 0 8 3.663 8 8s-3.663 8-8 8-8-3.663-8-8 3.663-8 8-8z">
+                                    </path>
+                                    <path
+                                        d="M12 17c.901 0 2.581-.168 3.707-1.292l-1.414-1.416C13.85 14.735 12.992 15 12 15c-1.626 0-3-1.374-3-3s1.374-3 3-3c.993 0 1.851.265 2.293.707l1.414-1.414C14.582 7.168 12.901 7 12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5z">
+                                    </path>
+                                </svg>
+                                LOKAL ETEN
+                                <!-- -->
+                                2023
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex max-w-xl flex-col font-mono text-black dark:text-white">
+                    <div class="space-y-2 pb-4">
+                        <h2 class="text-center font-sans text-4xl">Status Proyek Film</h2>
+                        <p class="text-center">Lihat sejauh apa yang sudah dikerjakan.</p>
+                    </div>
+                    <div class="flex flex-col space-y-2 rounded-lg border border-black p-4 dark:border-white">
+                        <h3 class="font-sans text-2xl font-bold">Menulis</h3>
+                        <span class="flex justify-between">
+                            <div class="space-x-2 uppercase">
+                                <span data-accent-color="orange"
+                                    class="rt-Badge rt-r-size-1 rt-variant-soft">progressing</span>
+                                <span data-accent-color="blue"
+                                    class="rt-Badge rt-r-size-1 rt-variant-soft">PRIVATE</span>
+                            </div>
+                            <p class="text-sm">June 2023</p>
+                        </span>
+                        <p>Tahap dimana brainstorm, tentukan logline, tulis dialog, rencanakan film, pilih lokasi,
+                            peralatan. Shot cantik direncanakan, shot cantik menunggu dieksekusi. Film. Cast. Crew.
+                            Rencanakan semuanya dari sini. ✏️🗒️</p>
+                        <a href="/project">
+                            <button
+                                class="w-full rounded-lg bg-lime-300 p-2 font-bold transition-all hover:bg-fuchsia-600 hover:text-white dark:bg-lime-700 dark:hover:bg-fuchsia-400">Lihat
+                                Proyek</button>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="w-full max-w-4xl justify-center gap-4 rounded-lg border border-black p-4 font-mono text-black dark:border-white dark:text-white md:flex">
+                    <span class="flex flex-col justify-between gap-4">
+                        <div>
+                            <span class="flex gap-2">
+                                <h2 class="font-sans text-4xl">Preset</h2>
+                                <div>
+                                    <p
+                                        class="rounded-sm bg-black px-1 py-[0.1rem] text-[0.65rem] text-white dark:bg-white dark:text-black">
+                                        Segera</p>
+                                </div>
+                            </span>
+                            <p class="pb-4">Didesain dari pengalaman Lokal Eten.</p>
+                        </div>
+                        <button type="button" disabled=""
+                            class="hidden w-full cursor-not-allowed rounded-lg bg-gray-300 p-2 font-bold text-gray-500 transition-all md:block">Download</button>
+                    </span>
+                    <div class="flex w-full flex-col">
+                        <span class="flex w-full content-center gap-4 pb-4">
+                            <span dir="ltr" data-orientation="horizontal" aria-disabled="false"
+                                class="relative flex h-5 w-full cursor-pointer touch-none select-none"
+                                style="--radix-slider-thumb-transform:translateX(-50%)">
+                                <span data-orientation="horizontal"
+                                    class="relative h-10 grow rounded-lg bg-gray-300 dark:bg-gray-700">
+                                    <span data-orientation="horizontal"
+                                        class="over absolute h-full rounded-lg bg-gradient-to-r from-fuchsia-100 to-fuchsia-300 dark:from-fuchsia-900 dark:to-fuchsia-700"
+                                        style="left:0%;right:0%"></span>
+                                </span>
+                                <span
+                                    style="transform:var(--radix-slider-thumb-transform);position:absolute;left:calc(0% + 0px)">
+                                    <span role="slider" aria-label="Volume" aria-valuemin="0" aria-valuemax="100"
+                                        aria-orientation="horizontal" data-orientation="horizontal" tabindex="0"
+                                        class="flex h-10 w-10 items-center justify-center rounded-lg  border bg-white dark:bg-black"
+                                        style="display:none" data-radix-collection-item="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+                                            viewBox="0 0 24 24" class="fill-black dark:fill-white" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <title></title>
+                                            <path
+                                                d="M11.9959.0008a1.1187 1.1187 0 00-.057.002.8993.8993 0 00-.2358.0498.9067.9067 0 00-.1652.079L1.9357 5.675a.889.889 0 00-.4444.7699c0 .006.0004.0128.0006.0192-.0002.007 0 .014 0 .0212V17.556a.889.889 0 00.469.7837l9.5983 5.5416c.018.0102.036.0197.054.0287v.002a.8568.8568 0 00.083.0348c0 .001.01.003.012.004.028.01.056.0177.085.0245.01.001.011.003.016.004.028.006.057.0112.086.0146 0 .0005.01.0009.014.001.03.003.061.005.091.005s.061-.002.091-.005c0-.0005.01-.0009.014-.001a.6831.6831 0 00.086-.0146c.01-.001.011-.002.016-.004a.9404.9404 0 00.085-.0245c0-.001.01-.003.012-.004a.8818.8818 0 00.083-.0347v-.002a1.086 1.086 0 00.054-.0287l9.5986-5.5416a.889.889 0 00.4689-.7837V6.4786c0-.009-.0006-.0172-.0008-.0258h.0003v-.008a.8886.8886 0 00-.3117-.6755c-.01-.008-.019-.0162-.029-.0241 0-.002-.01-.005-.01-.007a.8988.8988 0 00-.1074-.0705L12.4533.1267a.8872.8872 0 00-.4646-.1266zm.01 2.2523c.072 0 .1443.0187.209.056l6.5366 3.774c.2789.161.2789.5633 0 .7243l-6.5367 3.774a.4182.4182 0 01-.4182 0L5.26 6.8074c-.2788-.1609-.2789-.5633 0-.7243l6.5368-3.774a.4193.4193 0 01.209-.056zm-8.0801 6.458a.4145.4145 0 01.215.0565l6.524 3.7666a.417.417 0 01.2086.3612v7.5326c0 .3212-.3477.522-.626.3613l-6.5237-3.7666a.4172.4172 0 01-.2086-.3613V9.1288c0-.2408.1955-.414.4107-.4177zm16.1599 0c.215.004.4107.1768.4107.4177v7.5325c0 .149-.08.2868-.2087.3614l-6.5239 3.7666c-.278.1606-.6258-.0401-.6258-.3614v-7.5325c0-.149.08-.2867.2086-.3613l6.5238-3.7666a.415.415 0 01.2152-.0565z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </span>
+                            <input style="display:none" value="100" />
+                            <button
+                                class="h-full w-[5rem] rounded-lg border border-gray-100 bg-white px-4 py-2 transition-all hover:bg-gray-300 dark:border-gray-900 dark:bg-black dark:hover:bg-gray-700">100
+                                <!-- -->
+                                %</button>
+                        </span>
+                        <div
+                            class="relative aspect-[3/2] w-full overflow-hidden rounded-lg object-cover md:aspect-[2.33/1]">
+                            <img alt="Edited image - /photo/vivid/vivid-kodapro.jpg" loading="lazy" decoding="async"
+                                data-nimg="fill" class="z-10 w-full object-cover"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent;opacity:1"
+                                sizes="(max-width: 1440px)"
+                                srcSet="/_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=16&amp;q=75 16w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=3840&amp;q=75 3840w"
+                                src="/_next/image?url=%2Fphoto%2Fvivid%2Fvivid-kodapro.jpg&amp;w=3840&amp;q=75" />
+                            <img alt="Original image - /photo/vivid/original.jpg" loading="lazy" decoding="async"
+                                data-nimg="fill" class="w-full bg-gray-300 object-cover"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                sizes="(max-width: 1440px)"
+                                srcSet="/_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=16&amp;q=75 16w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=3840&amp;q=75 3840w"
+                                src="/_next/image?url=%2Fphoto%2Fvivid%2Foriginal.jpg&amp;w=3840&amp;q=75" />
+                            <p class="absolute bottom-2 right-2 z-20 rounded-md bg-black/70 px-2 text-sm text-white">
+                                Shot on Realme 6 2020</p>
+                        </div>
+                    </div>
+                    <button type="button" disabled=""
+                        class="mt-4 block w-full cursor-not-allowed rounded-lg bg-gray-300 p-2 font-bold text-gray-500 transition-all md:hidden">Download</button>
+                </div>
+                <div
+                    class="flex w-full max-w-2xl flex-col justify-center gap-4 text-center font-mono text-black dark:text-white">
+                    <h2 class="self-center font-sans text-4xl font-bold">Konten Terbaru</h2>
+                    <p>Stream di YouTube channel.</p>
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed?listType=playlist&amp;list=UUUWDdk8wYRS8JyKvltcPzmQ"
+                        class="aspect-[3/2] rounded-xl bg-cover md:aspect-[16/9]"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
+            <div>
+                <div class="flex w-full flex-col items-center">
+                    <div class="w-full max-w-4xl rounded-t-[2rem] border border-black dark:border-white">
+                        <div class="flex flex-col items-center justify-between gap-4 p-4 md:flex-row">
+                            <div class="flex justify-around gap-4 font-bold">
+                                <a class="cursor-pointer hover:skew-x-6 hover:underline"
+                                    href="https://instagram.com/lokaleten">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                        class="fill-black dark:fill-white" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="cursor-pointer hover:skew-x-6 hover:underline"
+                                    href="https://youtube.com/lokaleten">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                        class="fill-black dark:fill-white" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="cursor-pointer hover:skew-x-6 hover:underline"
+                                    href="https://open.spotify.com/show/6UQmmhX1A50wbmJ5Ow9Dl5?si=b5a8255c45de43c8">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                        class="fill-black dark:fill-white" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div>
+                                <div>
+                                    <a href="mailto:halo@lokaleten.com">
+                                        <p
+                                            class="cursor-pointer font-mono font-bold text-black hover:skew-x-6 hover:underline dark:text-white">
+                                            Email</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center p-4">
+                            <img alt="lokal eten logo" loading="lazy" width="960" height="100" decoding="async"
+                                data-nimg="1" class="block dark:hidden" style="color:transparent"
+                                src="/logo/lokaleten-logo-black.svg" />
+                            <img alt="lokal eten logo" loading="lazy" width="960" height="100" decoding="async"
+                                data-nimg="1" class="hidden dark:block" style="color:transparent"
+                                src="/logo/lokaleten-logo-white.svg" />
+                        </div>
+                    </div>
+                    <div class="w-full max-w-4xl bg-black dark:bg-white">
+                        <span
+                            class="flex items-center justify-center gap-2 font-mono text-xs text-white dark:text-black">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 22c5.421 0 10-4.579 10-10S17.421 2 12 2 2 6.579 2 12s4.579 10 10 10zm0-18c4.337 0 8 3.663 8 8s-3.663 8-8 8-8-3.663-8-8 3.663-8 8-8z">
+                                </path>
+                                <path
+                                    d="M12 17c.901 0 2.581-.168 3.707-1.292l-1.414-1.416C13.85 14.735 12.992 15 12 15c-1.626 0-3-1.374-3-3s1.374-3 3-3c.993 0 1.851.265 2.293.707l1.414-1.414C14.582 7.168 12.901 7 12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5z">
+                                </path>
+                            </svg>
+                            <p>LOKAL ETEN
+                                <!-- -->
+                                2023
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="sticky bottom-0 z-30">
+                <div
+                    class="sticky bottom-0 flex w-full items-center justify-between gap-4 space-y-2 bg-gray-100/95 px-4 py-2 align-middle dark:bg-gray-950/95 md:hidden">
+                    <div class="">
+                        <a href="/">
+                            <img alt="Hero" loading="lazy" width="30" height="3" decoding="async" data-nimg="1"
+                                class="block dark:hidden" style="color:transparent" src="/logo/le-logo-black.svg" />
+                            <img alt="Hero" loading="lazy" width="30" height="3" decoding="async" data-nimg="1"
+                                class="hidden dark:block" style="color:transparent" src="/logo/le-logo-white.svg" />
+                        </a>
+                    </div>
+                    <span class="pb-2">
+                        <div class="flex items-center space-x-8 align-middle font-mono text-black dark:text-white">
+                            <a href="/">
+                                <button class="text-sm font-bold hover:skew-x-6 hover:underline">Beranda</button>
+                            </a>
+                            <a href="/project">
+                                <button class="text-sm font-bold hover:skew-x-6 hover:underline">Proyek</button>
+                            </a>
+                            <a href="/about">
+                                <button class="text-sm font-bold hover:skew-x-6 hover:underline">Tentang</button>
+                            </a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" class="scroll-smooth focus:scroll-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <title>Home</title>
+</head>
+
+<body>
+    {% include("_navigation.html") %}
+
+    <main>
+        <section id="profile">
+            <div class="h-screen mt-12">
+                <section id="card-profile">
+                    <div class="flex justify-center">
+                        <div class="card w-80 shadow-xl bg-gradient-to-bl from-green-200 via-blue-300 to-purple-200">
+                            <figure class="px-14 pt-8">
+                                <img src="/static/img/p-1.png" alt="photo" class="mask mask-circle" />
+                            </figure>
+                            <div class="card-body items-center text-center dark:text-white">
+                                <h2 class="card-title font-sans font-bold">Riski Dimas,</h2>
+                                <p class="font-quat italic">Undergraduate student</p>
+                                <span class="rounded-md bg-gray-600 bg-opacity-25 px-4">Front-end & data
+                                    enthusiast</span>
+                                <div class="card-actions mt-4">
+                                    <ul class="col-span-2 flex justify-start gap-4 lg:col-span-5 lg:justify-end">
+                                        <li>
+                                            <a href="https://github.com/slowzi" rel="noreferrer" target="_blank"
+                                                class="text-gray-700 transition hover:opacity-75">
+                                                <span class="sr-only">GitHub</span>
+
+                                                <svg class="h-6 w-6" fill="white" viewBox="0 0 24 24"
+                                                    aria-hidden="true">
+                                                    <path fill-rule="evenodd"
+                                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/riski-dimas/" rel="noreferrer"
+                                                target="_blank" class="text-gray-700 transition hover:opacity-75">
+                                                <span class="sr-only">Linkedin</span>
+
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24"
+                                                    height="24" viewBox="0 0 24 24">
+                                                    <path class="fill-white"
+                                                        d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="tech-stack">
+                    <div class="flex justify-center mt-10">
+                        <div class="grid gap-8 grid-cols-3 md:grid-cols-5 xl:grid-cols-6">
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/60/external-mysql-an-open-source-relational-database-management-system-logo-color-tal-revivo.png"
+                                    alt="external-mysql-an-open-source-relational-database-management-system-logo-color-tal-revivo" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/fluency/48/jupyter.png" alt="jupyter" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/color/48/pandas.png" alt="pandas" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/color/48/git.png" alt="git" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="power-bi-2021" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/nolan/84/flask.png" alt="flask" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/color/40/tableau-software.png"
+                                    alt="tableau-software" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <img src="https://img.icons8.com/color/44/tensorflow.png" alt="tensorflow" />
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-6">
+                                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                    xmlns:svg="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M 63.992579,72.521325 41.553732,60.660321 2.6034211,40.074058 c -0.035557,-0.03555 -0.1066637,-0.03555 -0.1422174,-0.03555 -1.4221913,-0.675528 -2.87993927,0.746641 -2.3466152,2.168863 l 19.8466965,50.619383 0.0035,0.0109 c 0.02134,0.04994 0.03912,0.09944 0.06046,0.149334 0.814189,1.887956 2.591938,3.054 4.526143,3.512657 0.163538,0.03587 0.280527,0.06782 0.476917,0.107073 0.195451,0.04351 0.46881,0.10282 0.703471,0.120745 0.03912,0.0033 0.07467,0.0033 0.113789,0.0065 h 0.02846 c 0.02841,0.0044 0.05687,0.0044 0.08533,0.0076 h 0.03908 c 0.02491,0.0033 0.05333,0.0033 0.07824,0.0033 h 0.04621 c 0.02846,0.0044 0.05687,0.0044 0.08533,0.0044 v 0 c 25.135232,2.740415 50.493562,2.740415 75.628755,0 v 0 c 0.30207,0 0.59732,-0.0145 0.88147,-0.04263 0.0926,-0.0109 0.18133,-0.02137 0.27051,-0.03195 0.0107,-0.0044 0.0247,-0.0044 0.0354,-0.0076 0.0606,-0.0076 0.12074,-0.01788 0.18133,-0.02857 0.0887,-0.0109 0.17791,-0.02813 0.26666,-0.04612 0.17791,-0.03925 0.25855,-0.06738 0.50004,-0.1506 0.24106,-0.08276 0.64169,-0.22784 0.89214,-0.348585 0.25087,-0.120746 0.42452,-0.236792 0.63444,-0.368201 0.2594,-0.163837 0.50644,-0.331086 0.75689,-0.518812 0.10794,-0.08276 0.18175,-0.135683 0.25983,-0.210351 l -0.0427,-0.02475 z"
+                                        fill="#ff4b4b" id="path14" style="stroke-width:0.426657" />
+                                    <path
+                                        d="m 125.44606,40.07457 h -0.0354 L 86.445785,60.660834 108.10586,92.919776 127.90272,42.207855 v -0.07109 c 0.49791,-1.493346 -1.0308,-2.844391 -2.45668,-2.062205"
+                                        fill="#7d353b" id="path16" style="stroke-width:0.426657" />
+                                    <path
+                                        d="m 66.069117,30.286053 c -0.995816,-1.454191 -3.164512,-1.454191 -4.124488,0 L 41.553817,60.660572 63.992579,72.521761 106.51616,94.995458 c 0.26709,-0.261532 0.48127,-0.516249 0.7074,-0.785468 0.31999,-0.394664 0.61865,-0.817481 0.8819,-1.290639 L 86.445379,60.660572 Z"
+                                        fill="#bd4043" id="path18" style="stroke-width:0.426657" />
+                                </svg>
+                            </div>
+                            <div class="flex justify-center items-center grayscale hover:grayscale-0 hover:skew-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128">
+                                    <path style="fill-rule:nonzero;fill:#000;fill-opacity:1"
+                                        d="M63.984 17.184 127.964 128H0Zm0 0" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="about" class="h-screen">
+            <div class="flex flex-col h-screen justify-center items-center">
+                <div
+                    class="flex flex-col space-y-2 w-5/6 md:w-4/6 lg:w-2/6 rounded-lg border border-black p-4 dark:border-white">
+                    <span class="flex justify-between">
+                        <div class="space-x-2 uppercase">
+                            <span class="font-bold">about me</span>
+                        </div>
+                    </span>
+                    <div class="text-pretty">
+                        <p>
+                            I'm surrounded by a vibrant learning atmosphere that promotes a thorough comprehension of
+                            the
+                            relationship between business and technology. I have a strong foundation in information
+                            systems
+                            thanks to my academic background, and I have a strong interest in business, technology,
+                            analytics and statistics.
+                        </p><br>
+                        <p>
+                            fascinated by these aspects of information systems because they serve as the vital link
+                            between
+                            unprocessed data and strategic
+                            decision-making in an organizational setting. I have refined my analytical abilities and
+                            gained
+                            possibilities where technology and data may be used to improve business
+                            operations thanks to my coursework and real-world experiences. Hope i can contribute in Data
+                            analysis, data engineering, business intelligence, and business analysis.
+                        </p><br>
+                        <p>
+                            When I’m not at the computer, I usually go out and take some photos, hang out with friends
+                            and
+                            my camera, or run around my house to burn some calories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="h-screen">
+            <div class="flex flex-col h-screen justify-center items-center">
+                <h3 class="font-bold uppercase mb-5">My Highlight Project</h3>
+                <div
+                    class="w-1/2 carousel rounded-box hover:outline-dashed border-white/50 shadow-[5px_5px_rgba(8,_112,_184,_0.4),_10px_10px_rgba(8,_112,_184,_0.3),_15px_15px_rgba(8,_112,_184,_0.2),_20px_20px_rgba(8,_112,_184,_0.1),_25px_25px_rgba(8,_112,_184,_0.05)]">
+                    <div id="project-1" class="carousel-item w-full">
+                        <div class="card lg:card-side bg-base-100">
+                            <figure>
+                                <img src="/static/img/img-proj/da-python.png" alt="analysis-data"
+                                    class="object-cover h-52 w-72 transition-transform hover:-translate-x-2 hover:-translate-y-2" />
+                            </figure>
+                            <a href="https://ecommercedashboard.streamlit.app/" rel="noreferrer" target="_blank">
+                                <div class="card-body text-wrap">
+                                    <h2 class="card-title text-md mb-3">Analyze ecommerce dashboard using RFM method
+                                    </h2>
+                                    <p class="font-light">
+                                        A dashboard to visualize and facilitate decision-making based on customer
+                                        behavior using the RFM (recency, frequency, monetary) method.
+                                    </p>
+                                    <div class="card-actions justify-start">
+                                        <div class="flex w-full">
+                                            <a class="btn btn-xs mr-2">python</a>
+                                            <a class="btn btn-xs mr-2">streamlit</a>
+                                            <a class="btn btn-xs mr-2">pandas</a>
+                                            <a class="btn btn-xs">seaborn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="project-2" class="carousel-item w-full">
+                        <div class="card lg:card-side bg-base-100">
+                            <figure>
+                                <img src="/static/img/img-proj/img-clf.png" alt="image-classification"
+                                    class="object-cover h-52 w-72 transition-transform hover:-translate-x-2 hover:-translate-y-2" />
+                            </figure>
+                            <a href="https://github.com/slowzi/image-classification" rel="noreferrer" target="_blank">
+                                <div class="card-body">
+                                    <h2 class="card-title text-md mb-3">Image classification using tensorflow</h2>
+                                    <p>
+                                        Implement tensorflow in classification for image rock, paper, & scissors using
+                                        google colab with model train under 30 minute and accuracy above 95%
+                                    </p>
+                                    <div class="card-actions justify-start">
+                                        <div class="flex w-full">
+                                            <a class="btn btn-xs mr-2">python</a>
+                                            <a class="btn btn-xs mr-2">tensorflow</a>
+                                            <a class="btn btn-xs mr-2">matplotlib</a>
+                                            <a class="btn btn-xs mr-2">google colab</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="project-3" class="carousel-item w-full">
+                        <div class="card lg:card-side bg-base-100">
+                            <figure>
+                                <img src="/static/img/img-proj/ad-hoc-revenue.png" alt="revenue-dashboard"
+                                    class="object-cover h-50 w-72 transition-transform hover:-translate-x-2 hover:-translate-y-2" />
+                            </figure>
+                            <a href="https://github.com/slowzi/dashboard-revenue" rel="noreferrer" target="_blank">
+                                <div class="card-body">
+                                    <h2 class="card-title text-md mb-3">Hotel dashboard revenue</h2>
+                                    <p>
+                                        Answesing 3 business question to help make strategic decision for helping the
+                                        business easy understand the problem and solution
+                                    </p>
+                                    <div class="card-actions justify-start">
+                                        <div class="flex w-full">
+                                            <a class="btn btn-xs mr-2">Ms. sql server</a>
+                                            <a class="btn btn-xs mr-2">Ms. Power BI</a>
+                                            <a class="btn btn-xs mr-2">SQL</a>
+                                            <a class="btn btn-xs">git</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="project-4" class="carousel-item w-full">
+                        <div class="card lg:card-side bg-base-100">
+                            <figure>
+                                <img src="/static/img/img-proj/plan-struc.png" alt="work-plan"
+                                    class="object-cover h-52 w-72 transition-transform hover:-translate-x-2 hover:-translate-y-2" />
+                            </figure>
+                            <a href="https://www.notion.so/Work-Plan-Structure-8c8a6ac5ca9c4925bb1d3898e0102d4c?pvs=4"
+                                rel="noreferrer" target="_blank">
+                                <div class="card-body">
+                                    <h2 class="card-title text-md mb-3">Work structure for analysing data</h2>
+                                    <p>
+                                        Second brain with notion for guiding work to analysing data processing and can
+                                        access anytime
+                                    </p>
+                                    <div class="card-actions justify-start">
+                                        <div class="flex w-full">
+                                            <a class="btn btn-xs mr-2">Notion.so</a>
+                                            <a class="btn btn-xs mr-2">Gamma.app</a>
+                                            <a class="btn btn-xs mr-2">Adobe illustrator</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="project-5" class="carousel-item w-full">
+                        <div class="card lg:card-side bg-base-100">
+                            <figure>
+                                <img src="/static/img/img-proj/web-person.png" alt="work-plan"
+                                    class="object-cover h-52 w-72 transition-transform hover:-translate-x-2 hover:-translate-y-2" />
+                            </figure>
+                            <a href="/"
+                                rel="noreferrer" target="_blank">
+                                <div class="card-body">
+                                    <h2 class="card-title text-md mb-3">Peronal website version 1</h2>
+                                    <p>
+                                        Personalize my website, easy for people to get in touch with me
+                                    </p>
+                                    <div class="card-actions justify-start">
+                                        <div class="flex w-full">
+                                            <a class="btn btn-xs mr-2">Flask</a>
+                                            <a class="btn btn-xs mr-2">Tailwindcss</a>
+                                            <a class="btn btn-xs mr-2">Vercel</a>
+                                            <a class="btn btn-xs mr-2">Node</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center w-full gap-2 mt-8">
+                    <a href="#project-1" class="h-2 w-2 bg-slate-400 rounded-full"></a>
+                    <a href="#project-2" class="h-2 w-2 bg-slate-400 rounded-full"></a>
+                    <a href="#project-3" class="h-2 w-2 bg-slate-400 rounded-full"></a>
+                    <a href="#project-4" class="h-2 w-2 bg-slate-400 rounded-full"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div>
+                <div class="flex w-full flex-col items-center">
+                    <div class="w-full max-w-4xl rounded-t-[2rem] border border-black dark:border-white">
+                        <div class="flex flex-col items-center justify-between gap-4 p-4 md:flex-row">
+                            <div class="justify-around gap-4 font-bold hidden md:hidden lg:inline-flex">
+                                <a class="cursor-pointer hover:skew-x-6 hover:underline"
+                                    href="https://github.com/slowzi" rel="noreferrer" target="_blank">
+                                    <svg class="h-6 w-6" fill="white" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                                <a class="cursor-pointer hover:skew-x-6 hover:underline"
+                                    href="https://www.linkedin.com/in/riski-dimas/" rel="noreferrer" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        version="1.1" width="24" height="24" viewBox="0 0 24 24">
+                                        <path class="fill-white"
+                                            d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div>
+                                <div>
+                                    <a href="mailto:dms.riskidee@gmail.com">
+                                        <p
+                                            class="cursor-pointer font-libre font-bold text-black hover:italic dark:text-white">
+                                            Email</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-4xl bg-black dark:bg-white">
+                        <span
+                            class="flex items-center px-3 justify-center gap-2 font-libre text-xs text-white dark:text-black">
+                            <a href="/not-found">
+                                <img src="https://img.icons8.com/ios-filled/20/FFFFFF/filled-circle.png"
+                                    alt="filled-circle" />
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
